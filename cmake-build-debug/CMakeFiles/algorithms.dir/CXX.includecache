@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/home/vadym/Projects/algorithms/./src/Search/linear.h
+
 /home/vadym/Projects/algorithms/main.cpp
 iostream
+-
+vector
+/home/vadym/Projects/algorithms/vector
+string
+/home/vadym/Projects/algorithms/string
+src/utils/array.h
+/home/vadym/Projects/algorithms/src/utils/array.h
+./src/Search/linear.h
+/home/vadym/Projects/algorithms/./src/Search/linear.h
+
+/home/vadym/Projects/algorithms/src/utils/array.h
+ctime
+-
+random
 -
 

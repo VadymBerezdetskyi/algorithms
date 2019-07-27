@@ -87,6 +87,18 @@
 		<Unit filename="/home/vadym/Projects/algorithms/main.cpp">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="/home/vadym/Projects/algorithms/src/Search/linear.h">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/home/vadym/Projects/algorithms/src/utils/array.h">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/home/vadym/Projects/algorithms/src/utils/getGraph.h">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/home/vadym/Projects/algorithms/src/utils/runner.h">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/home/vadym/Projects/algorithms/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
