@@ -14,17 +14,23 @@ int* getRandomArray(int size) {
     int* array = new int[size];
 
     for (int i = 0; i < size; i++) {
-        array[i] = getItem(rd);
+        array[i] = getItem(e);
     }
 
     return array;
 }
 
 int* getSortedArray(int size) {
+    int i = 0;
+    random_device rd;
+    default_random_engine e(rd());
+    uniform_int_distribution<int> getItem(10, 100);
+    int sub = getItem(e);
+
     int* array = new int[size];
 
-    for (int i = 0; i < size; i++) {
-        array[i] = i;
+    for (i = 0; i < size; i++) {
+        array[i] = i + sub;
     }
 
     return array;

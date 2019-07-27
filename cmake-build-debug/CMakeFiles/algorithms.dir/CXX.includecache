@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/home/vadym/Projects/algorithms/./src/Search/binary.h
+
 /home/vadym/Projects/algorithms/./src/Search/linear.h
 
 /home/vadym/Projects/algorithms/main.cpp
@@ -19,6 +21,8 @@ src/utils/array.h
 /home/vadym/Projects/algorithms/src/utils/array.h
 ./src/Search/linear.h
 /home/vadym/Projects/algorithms/./src/Search/linear.h
+./src/Search/binary.h
+/home/vadym/Projects/algorithms/./src/Search/binary.h
 
 /home/vadym/Projects/algorithms/src/utils/array.h
 ctime
