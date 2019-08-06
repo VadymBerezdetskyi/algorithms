@@ -36,7 +36,7 @@ int* getSortedArray(int size) {
     return array;
 }
 
-void printArray (int* arr, int size) {
+void printArray(int* arr, int size) {
     cout << "[ ";
     for (int i = 0; i < size; ++i) {
         cout << arr[i] << ", ";
