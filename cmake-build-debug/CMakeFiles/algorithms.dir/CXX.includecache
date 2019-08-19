@@ -10,6 +10,18 @@
 
 /home/vadym/Projects/algorithms/./src/Search/linear.h
 
+/home/vadym/Projects/algorithms/./src/Search/linearString.h
+../utils/string.h
+/home/vadym/Projects/algorithms/./src/utils/string.h
+iostream
+-
+
+/home/vadym/Projects/algorithms/./src/utils/string.h
+algorithm
+-
+string
+/home/vadym/Projects/algorithms/./src/utils/string
+
 /home/vadym/Projects/algorithms/main.cpp
 iostream
 -
@@ -19,14 +31,24 @@ string
 /home/vadym/Projects/algorithms/string
 src/utils/array.h
 /home/vadym/Projects/algorithms/src/utils/array.h
+src/utils/string.h
+/home/vadym/Projects/algorithms/src/utils/string.h
 ./src/Search/linear.h
 /home/vadym/Projects/algorithms/./src/Search/linear.h
 ./src/Search/binary.h
 /home/vadym/Projects/algorithms/./src/Search/binary.h
+./src/Search/linearString.h
+/home/vadym/Projects/algorithms/./src/Search/linearString.h
 
 /home/vadym/Projects/algorithms/src/utils/array.h
 ctime
 -
 random
 -
+
+/home/vadym/Projects/algorithms/src/utils/string.h
+algorithm
+-
+string
+/home/vadym/Projects/algorithms/src/utils/string
 

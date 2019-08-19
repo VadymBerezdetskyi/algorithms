@@ -2,20 +2,27 @@
 #include "vector"
 #include "string"
 #include "src/utils/array.h"
+#include "src/utils/string.h"
 
 #include "./src/Search/linear.h"
 #include "./src/Search/binary.h"
+#include "./src/Search/linearString.h"
 
 int main() {
     int SIZE = 10;
     int choice = 100;
 
-    enum argorithm { LINEAR, BINARY };
+    enum argorithm {
+        LINEAR,
+        BINARY,
+        LINEAR_STRING,
+    };
 
     vector<string> menu = {
         "Choose the algorithm:",
         "0. Linear search;",
         "1. Binary search;",
+        "2. Linear search in string;",
     };
 
     for (string &item : menu) {
@@ -34,7 +41,6 @@ int main() {
             linearSearch(arr, SIZE, find);
         }
 
-
         case BINARY: {
             int find;
             int* arr = getSortedArray(SIZE);
@@ -45,6 +51,15 @@ int main() {
             break;
         }
 
+        case LINEAR_STRING: {
+            string image;
+            string base = getRandomString(20);
+            cout << "Base string: " << base << endl;
+            cout << "Enter substring to find: ";
+            cin >> image;
+            linearString(base, image);
+            break;
+        }
 
         default: {
             cout << "Invalid choice." << endl;

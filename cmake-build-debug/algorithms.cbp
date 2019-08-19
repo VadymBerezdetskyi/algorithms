@@ -93,6 +93,9 @@
 		<Unit filename="/home/vadym/Projects/algorithms/src/Search/linear.h">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="/home/vadym/Projects/algorithms/src/Search/linearString.h">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/home/vadym/Projects/algorithms/src/utils/array.h">
 			<Option target="algorithms"/>
 		</Unit>
@@ -100,6 +103,9 @@
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/home/vadym/Projects/algorithms/src/utils/runner.h">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/home/vadym/Projects/algorithms/src/utils/string.h">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/home/vadym/Projects/algorithms/CMakeLists.txt">

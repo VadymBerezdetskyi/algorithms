@@ -2,7 +2,7 @@
 #define ALGORITHMS_BINARY_H
 
 void binarySearch(int const *arr, int size, int find) {
-    int L = 0, z = 0, i = 0;
+    int L = 0, i = 0;
     int R = size;
     bool found = false;
 
