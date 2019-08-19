@@ -4,6 +4,7 @@
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Search/binary.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Search/linear.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Search/linearString.h
+CMakeFiles/algorithms.dir/main.cpp.o: .././src/Search/searchKMP.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/utils/string.h
 CMakeFiles/algorithms.dir/main.cpp.o: ../main.cpp
 CMakeFiles/algorithms.dir/main.cpp.o: ../src/utils/array.h

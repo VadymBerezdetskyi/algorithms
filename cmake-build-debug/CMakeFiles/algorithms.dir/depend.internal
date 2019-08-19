@@ -5,6 +5,7 @@ CMakeFiles/algorithms.dir/main.cpp.o
  /home/vadym/Projects/algorithms/./src/Search/binary.h
  /home/vadym/Projects/algorithms/./src/Search/linear.h
  /home/vadym/Projects/algorithms/./src/Search/linearString.h
+ /home/vadym/Projects/algorithms/./src/Search/searchKMP.h
  /home/vadym/Projects/algorithms/./src/utils/string.h
  /home/vadym/Projects/algorithms/main.cpp
  /home/vadym/Projects/algorithms/src/utils/array.h

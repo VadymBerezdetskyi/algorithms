@@ -96,6 +96,9 @@
 		<Unit filename="/home/vadym/Projects/algorithms/src/Search/linearString.h">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="/home/vadym/Projects/algorithms/src/Search/searchKMP.h">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/home/vadym/Projects/algorithms/src/utils/array.h">
 			<Option target="algorithms"/>
 		</Unit>
