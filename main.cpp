@@ -8,6 +8,7 @@
 #include "./src/Search/binary.h"
 #include "./src/Search/linearString.h"
 #include "./src/Search/searchKMP.h"
+#include "./src/Search/searchBM.h"
 
 int main() {
     int SIZE = 10;
@@ -18,6 +19,7 @@ int main() {
         BINARY,
         LINEAR_STRING,
         SEARCH_KMP,
+        SEARCH_BM,
     };
 
     vector<string> menu = {
@@ -26,6 +28,7 @@ int main() {
         "1. Binary search;",
         "2. Linear search in string;",
         "3. Knuth–Morris–Pratt search algorithm;",
+        "4. Boyer–Moore string-search algorithm;",
     };
 
     for (string &item : menu) {
@@ -71,6 +74,16 @@ int main() {
             cout << "Enter substring to find: ";
             cin >> image;
             searchKMP(base, image);
+            break;
+        }
+
+        case SEARCH_BM: {
+            string image;
+            string base = getRandomString(20);
+            cout << "Base string: " << base << endl;
+            cout << "Enter substring to find: ";
+            cin >> image;
+            searchBM(base, image);
             break;
         }
 

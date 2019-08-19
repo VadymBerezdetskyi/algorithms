@@ -16,6 +16,16 @@
 iostream
 -
 
+/home/vadym/Projects/algorithms/./src/Search/searchBM.h
+iostream
+-
+string
+/home/vadym/Projects/algorithms/./src/Search/string
+vector
+/home/vadym/Projects/algorithms/./src/Search/vector
+unordered_map
+-
+
 /home/vadym/Projects/algorithms/./src/Search/searchKMP.h
 iostream
 -
@@ -49,6 +59,8 @@ src/utils/string.h
 /home/vadym/Projects/algorithms/./src/Search/linearString.h
 ./src/Search/searchKMP.h
 /home/vadym/Projects/algorithms/./src/Search/searchKMP.h
+./src/Search/searchBM.h
+/home/vadym/Projects/algorithms/./src/Search/searchBM.h
 
 /home/vadym/Projects/algorithms/src/utils/array.h
 ctime
