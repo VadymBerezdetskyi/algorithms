@@ -7,11 +7,14 @@ CMakeFiles/algorithms.dir/main.cpp.o: .././src/Search/linearString.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Search/searchBM.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Search/searchKMP.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/bubbleSort.h
+CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/countingSort.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/linearInsert.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/quickSort.h
+CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/radixSort.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/shakerSort.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/shellSort.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/simpleChoice.h
+CMakeFiles/algorithms.dir/main.cpp.o: .././src/utils/array.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/utils/string.h
 CMakeFiles/algorithms.dir/main.cpp.o: ../main.cpp
 CMakeFiles/algorithms.dir/main.cpp.o: ../src/utils/array.h

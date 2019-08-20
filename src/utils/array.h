@@ -44,4 +44,16 @@ void printArray(int* arr, int size) {
     cout << " ]" << endl;
 }
 
+int getMax (int* const arr, int size) {
+    int mx = arr[0];
+
+    for (int i = 1; i < size; i++) {
+        if (arr[i] > mx) {
+            mx = arr[i];
+        }
+    }
+
+    return mx;
+}
+
 #endif //ALGORITHMS_ARRAY_H
