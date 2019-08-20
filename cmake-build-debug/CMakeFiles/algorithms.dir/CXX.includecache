@@ -34,6 +34,8 @@ string
 vector
 /home/vadym/Projects/algorithms/./src/Search/vector
 
+/home/vadym/Projects/algorithms/./src/Sorting/linearInsert.h
+
 /home/vadym/Projects/algorithms/./src/utils/string.h
 algorithm
 -
@@ -61,6 +63,8 @@ src/utils/string.h
 /home/vadym/Projects/algorithms/./src/Search/searchKMP.h
 ./src/Search/searchBM.h
 /home/vadym/Projects/algorithms/./src/Search/searchBM.h
+./src/Sorting/linearInsert.h
+/home/vadym/Projects/algorithms/./src/Sorting/linearInsert.h
 
 /home/vadym/Projects/algorithms/src/utils/array.h
 ctime
