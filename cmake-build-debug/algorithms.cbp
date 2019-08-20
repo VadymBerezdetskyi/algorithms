@@ -102,6 +102,9 @@
 		<Unit filename="/home/vadym/Projects/algorithms/src/Search/searchKMP.h">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="/home/vadym/Projects/algorithms/src/Sorting/bubbleSort.h">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/home/vadym/Projects/algorithms/src/Sorting/linearInsert.h">
 			<Option target="algorithms"/>
 		</Unit>
