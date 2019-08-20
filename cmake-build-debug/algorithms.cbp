@@ -114,6 +114,9 @@
 		<Unit filename="/home/vadym/Projects/algorithms/src/Sorting/linearInsert.h">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="/home/vadym/Projects/algorithms/src/Sorting/mergeSort.h">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/home/vadym/Projects/algorithms/src/Sorting/quickSort.h">
 			<Option target="algorithms"/>
 		</Unit>

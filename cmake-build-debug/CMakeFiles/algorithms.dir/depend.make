@@ -10,6 +10,7 @@ CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/bubbleSort.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/countingSort.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/heapSort.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/linearInsert.h
+CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/mergeSort.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/quickSort.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/radixSort.h
 CMakeFiles/algorithms.dir/main.cpp.o: .././src/Sorting/shakerSort.h

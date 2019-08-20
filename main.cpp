@@ -20,6 +20,7 @@
 #include "./src/Sorting/countingSort.h"
 #include "./src/Sorting/radixSort.h"
 #include "./src/Sorting/heapSort.h"
+#include "./src/Sorting/mergeSort.h"
 
 int main() {
     int SIZE = 10;
@@ -40,6 +41,7 @@ int main() {
         COUNTING_SORT,
         RADIX_SORT,
         HEAP_SORT,
+        MERGE_SORT,
     };
 
     vector<string> menu = {
@@ -58,6 +60,7 @@ int main() {
         "11. Counting sort;",
         "12. Radix sort;",
         "13. Heap sort;",
+        "14. Merge sort;",
     };
 
     for (string &item : menu) {
@@ -184,6 +187,14 @@ int main() {
             int* arr = getRandomArray(SIZE);
             cout << "Before sort: "; printArray(arr, SIZE);
             heapSort(arr, SIZE);
+            cout << "After sort: "; printArray(arr, SIZE);
+            break;
+        }
+
+        case MERGE_SORT: {
+            int* arr = getRandomArray(SIZE);
+            cout << "Before sort: "; printArray(arr, SIZE);
+            mergeSort(arr, SIZE, 0, SIZE - 1);
             cout << "After sort: "; printArray(arr, SIZE);
             break;
         }

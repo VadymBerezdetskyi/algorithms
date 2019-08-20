@@ -46,6 +46,10 @@ algorithm
 
 /home/vadym/Projects/algorithms/./src/Sorting/linearInsert.h
 
+/home/vadym/Projects/algorithms/./src/Sorting/mergeSort.h
+algorithm
+-
+
 /home/vadym/Projects/algorithms/./src/Sorting/quickSort.h
 algorithm
 -
@@ -115,6 +119,8 @@ src/utils/string.h
 /home/vadym/Projects/algorithms/./src/Sorting/radixSort.h
 ./src/Sorting/heapSort.h
 /home/vadym/Projects/algorithms/./src/Sorting/heapSort.h
+./src/Sorting/mergeSort.h
+/home/vadym/Projects/algorithms/./src/Sorting/mergeSort.h
 
 /home/vadym/Projects/algorithms/src/utils/array.h
 ctime

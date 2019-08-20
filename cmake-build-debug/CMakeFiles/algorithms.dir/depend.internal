@@ -11,6 +11,7 @@ CMakeFiles/algorithms.dir/main.cpp.o
  /home/vadym/Projects/algorithms/./src/Sorting/countingSort.h
  /home/vadym/Projects/algorithms/./src/Sorting/heapSort.h
  /home/vadym/Projects/algorithms/./src/Sorting/linearInsert.h
+ /home/vadym/Projects/algorithms/./src/Sorting/mergeSort.h
  /home/vadym/Projects/algorithms/./src/Sorting/quickSort.h
  /home/vadym/Projects/algorithms/./src/Sorting/radixSort.h
  /home/vadym/Projects/algorithms/./src/Sorting/shakerSort.h
