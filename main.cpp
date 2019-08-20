@@ -15,6 +15,7 @@
 #include "./src/Sorting/shellSort.h"
 #include "./src/Sorting/simpleChoice.h"
 #include "./src/Sorting/bubbleSort.h"
+#include "./src/Sorting/shakerSort.h"
 
 int main() {
     int SIZE = 10;
@@ -30,6 +31,7 @@ int main() {
         SHELL_SORT,
         SIMPLE_CHOICE,
         BUBBLE,
+        SHAKER_SORT,
     };
 
     vector<string> menu = {
@@ -43,6 +45,7 @@ int main() {
         "6. Shell sort;",
         "7. Simple choice sort;",
         "8. Bubble sort sort;",
+        "9. Shaker sort;",
     };
 
     for (string &item : menu) {
@@ -129,6 +132,14 @@ int main() {
             int* arr = getRandomArray(SIZE);
             cout << "Before sort: "; printArray(arr, SIZE);
             bubbleSort(arr, SIZE);
+            cout << "After sort: "; printArray(arr, SIZE);
+            break;
+        }
+
+        case SHAKER_SORT: {
+            int* arr = getRandomArray(SIZE);
+            cout << "Before sort: "; printArray(arr, SIZE);
+            shakerSort(arr, SIZE);
             cout << "After sort: "; printArray(arr, SIZE);
             break;
         }

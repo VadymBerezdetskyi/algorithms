@@ -40,6 +40,10 @@ algorithm
 
 /home/vadym/Projects/algorithms/./src/Sorting/linearInsert.h
 
+/home/vadym/Projects/algorithms/./src/Sorting/shakerSort.h
+algorithm
+-
+
 /home/vadym/Projects/algorithms/./src/Sorting/shellSort.h
 
 /home/vadym/Projects/algorithms/./src/Sorting/simpleChoice.h
@@ -81,6 +85,8 @@ src/utils/string.h
 /home/vadym/Projects/algorithms/./src/Sorting/simpleChoice.h
 ./src/Sorting/bubbleSort.h
 /home/vadym/Projects/algorithms/./src/Sorting/bubbleSort.h
+./src/Sorting/shakerSort.h
+/home/vadym/Projects/algorithms/./src/Sorting/shakerSort.h
 
 /home/vadym/Projects/algorithms/src/utils/array.h
 ctime
