@@ -12,12 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb21be01-923c-4859-8298-46fbbf6cfd84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sorting/shakerSort.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/quickSort.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/algorithms.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/algorithms.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/bubbleSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/bubbleSort.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="141" column="34" lean-forward="true" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
+            <state relative-caret-position="188">
+              <caret line="153" column="58" lean-forward="true" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -50,10 +49,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorting/quickSort.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sorting/shakerSort.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="84">
+              <caret line="4" column="20" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="4" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -72,7 +80,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>return</find>
+      <find>s_arr</find>
     </findStrings>
+    <replaceStrings>
+      <replace>arr</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/Sorting/simpleChoice.h" />
         <option value="$PROJECT_DIR$/src/Sorting/bubbleSort.h" />
         <option value="$PROJECT_DIR$/src/Sorting/shakerSort.h" />
+        <option value="$PROJECT_DIR$/src/Sorting/quickSort.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -193,12 +206,12 @@
       <workItem from="1564226777916" duration="6571000" />
       <workItem from="1565201877252" duration="1314000" />
       <workItem from="1566198939639" duration="4915000" />
-      <workItem from="1566330444230" duration="3042000" />
+      <workItem from="1566330444230" duration="3856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19825000" />
+    <option name="totallyTimeSpent" value="20639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="728" extended-state="6" />
@@ -376,15 +389,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorting/shakerSort.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="84">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorting/quickSort.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="141" column="34" lean-forward="true" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
+        <state relative-caret-position="188">
+          <caret line="153" column="58" lean-forward="true" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
