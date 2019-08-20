@@ -19,6 +19,7 @@
 #include "./src/Sorting/quickSort.h"
 #include "./src/Sorting/countingSort.h"
 #include "./src/Sorting/radixSort.h"
+#include "./src/Sorting/heapSort.h"
 
 int main() {
     int SIZE = 10;
@@ -38,6 +39,7 @@ int main() {
         QUICK_SORT,
         COUNTING_SORT,
         RADIX_SORT,
+        HEAP_SORT,
     };
 
     vector<string> menu = {
@@ -55,6 +57,7 @@ int main() {
         "10. Quick sort;",
         "11. Counting sort;",
         "12. Radix sort;",
+        "13. Heap sort;",
     };
 
     for (string &item : menu) {
@@ -173,6 +176,14 @@ int main() {
             int* arr = getRandomArray(SIZE);
             cout << "Before sort: "; printArray(arr, SIZE);
             radixSort(arr, SIZE);
+            cout << "After sort: "; printArray(arr, SIZE);
+            break;
+        }
+
+        case HEAP_SORT: {
+            int* arr = getRandomArray(SIZE);
+            cout << "Before sort: "; printArray(arr, SIZE);
+            heapSort(arr, SIZE);
             cout << "After sort: "; printArray(arr, SIZE);
             break;
         }

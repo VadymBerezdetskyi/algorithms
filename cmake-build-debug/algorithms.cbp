@@ -108,6 +108,9 @@
 		<Unit filename="/home/vadym/Projects/algorithms/src/Sorting/countingSort.h">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="/home/vadym/Projects/algorithms/src/Sorting/heapSort.h">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/home/vadym/Projects/algorithms/src/Sorting/linearInsert.h">
 			<Option target="algorithms"/>
 		</Unit>
