@@ -2,7 +2,8 @@
 #ifndef ALGORITHMS_SHELLSORT_H
 #define ALGORITHMS_SHELLSORT_H
 
-void shellSort (int *arr, int n) {int i, j, step;
+void shellSort (int *arr, int n) {
+    int i, j, step;
     int tmp;
 
     for (step = n / 2; step > 0; step /= 2) {

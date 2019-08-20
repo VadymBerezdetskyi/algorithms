@@ -13,6 +13,7 @@
 
 #include "./src/Sorting/linearInsert.h"
 #include "./src/Sorting/shellSort.h"
+#include "./src/Sorting/simpleChoice.h"
 
 int main() {
     int SIZE = 10;
@@ -26,6 +27,7 @@ int main() {
         SEARCH_BM,
         LINEAR_INSERT,
         SHELL_SORT,
+        SIMPLE_CHOICE,
     };
 
     vector<string> menu = {
@@ -37,6 +39,7 @@ int main() {
         "4. Boyer–Moore string-search algorithm;",
         "5. Insert sort;",
         "6. Shell sort;",
+        "7. Simple choice sort;",
     };
 
     for (string &item : menu) {
@@ -107,6 +110,14 @@ int main() {
             int* arr = getRandomArray(SIZE);
             cout << "Before sort: "; printArray(arr, SIZE);
             shellSort(arr, SIZE);
+            cout << "After sort: "; printArray(arr, SIZE);
+            break;
+        }
+
+        case SIMPLE_CHOICE: {
+            int* arr = getRandomArray(SIZE);
+            cout << "Before sort: "; printArray(arr, SIZE);
+            simpleChoice(arr, SIZE);
             cout << "After sort: "; printArray(arr, SIZE);
             break;
         }
