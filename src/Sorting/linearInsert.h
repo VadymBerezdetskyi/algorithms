@@ -1,7 +1,7 @@
 #ifndef ALGORITHMS_LINEARINSERT_H
 #define ALGORITHMS_LINEARINSERT_H
 
-void linearInsert(int *arr, int n) {
+void linearInsert (int *arr, int n) {
     int i, key, j;
     for (i = 1; i < n; i++) {
         key = arr[i];

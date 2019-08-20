@@ -1,6 +1,7 @@
 #include <iostream>
 #include "vector"
 #include "string"
+
 #include "src/utils/array.h"
 #include "src/utils/string.h"
 
@@ -9,7 +10,9 @@
 #include "./src/Search/linearString.h"
 #include "./src/Search/searchKMP.h"
 #include "./src/Search/searchBM.h"
+
 #include "./src/Sorting/linearInsert.h"
+#include "./src/Sorting/shellSort.h"
 
 int main() {
     int SIZE = 10;
@@ -22,6 +25,7 @@ int main() {
         SEARCH_KMP,
         SEARCH_BM,
         LINEAR_INSERT,
+        SHELL_SORT,
     };
 
     vector<string> menu = {
@@ -32,6 +36,7 @@ int main() {
         "3. Knuth–Morris–Pratt search algorithm;",
         "4. Boyer–Moore string-search algorithm;",
         "5. Insert sort;",
+        "6. Shell sort;",
     };
 
     for (string &item : menu) {
@@ -94,6 +99,14 @@ int main() {
             int* arr = getRandomArray(SIZE);
             cout << "Before sort: "; printArray(arr, SIZE);
             linearInsert(arr, SIZE);
+            cout << "After sort: "; printArray(arr, SIZE);
+            break;
+        }
+
+        case SHELL_SORT: {
+            int* arr = getRandomArray(SIZE);
+            cout << "Before sort: "; printArray(arr, SIZE);
+            shellSort(arr, SIZE);
             cout << "After sort: "; printArray(arr, SIZE);
             break;
         }

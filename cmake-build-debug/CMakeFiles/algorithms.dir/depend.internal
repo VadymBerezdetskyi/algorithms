@@ -8,6 +8,7 @@ CMakeFiles/algorithms.dir/main.cpp.o
  /home/vadym/Projects/algorithms/./src/Search/searchBM.h
  /home/vadym/Projects/algorithms/./src/Search/searchKMP.h
  /home/vadym/Projects/algorithms/./src/Sorting/linearInsert.h
+ /home/vadym/Projects/algorithms/./src/Sorting/shellSort.h
  /home/vadym/Projects/algorithms/./src/utils/string.h
  /home/vadym/Projects/algorithms/main.cpp
  /home/vadym/Projects/algorithms/src/utils/array.h
