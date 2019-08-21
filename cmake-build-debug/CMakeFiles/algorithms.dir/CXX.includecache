@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/vadym/Projects/algorithms/./src/Graph/kruskal.h
+vector
+-
+utility
+-
+algorithm
+-
+
 /home/vadym/Projects/algorithms/./src/Search/binary.h
 
 /home/vadym/Projects/algorithms/./src/Search/linear.h
@@ -91,6 +99,8 @@ src/utils/array.h
 /home/vadym/Projects/algorithms/src/utils/array.h
 src/utils/string.h
 /home/vadym/Projects/algorithms/src/utils/string.h
+src/utils/getGraph.h
+/home/vadym/Projects/algorithms/src/utils/getGraph.h
 ./src/Search/linear.h
 /home/vadym/Projects/algorithms/./src/Search/linear.h
 ./src/Search/binary.h
@@ -121,11 +131,25 @@ src/utils/string.h
 /home/vadym/Projects/algorithms/./src/Sorting/heapSort.h
 ./src/Sorting/mergeSort.h
 /home/vadym/Projects/algorithms/./src/Sorting/mergeSort.h
+./src/Graph/kruskal.h
+/home/vadym/Projects/algorithms/./src/Graph/kruskal.h
 
 /home/vadym/Projects/algorithms/src/utils/array.h
 ctime
 -
 random
+-
+
+/home/vadym/Projects/algorithms/src/utils/getGraph.h
+iostream
+-
+ctime
+-
+random
+-
+vector
+-
+utility
 -
 
 /home/vadym/Projects/algorithms/src/utils/string.h

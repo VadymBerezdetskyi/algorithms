@@ -87,6 +87,9 @@
 		<Unit filename="/home/vadym/Projects/algorithms/main.cpp">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="/home/vadym/Projects/algorithms/src/Graph/kruskal.h">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/home/vadym/Projects/algorithms/src/Search/binary.h">
 			<Option target="algorithms"/>
 		</Unit>

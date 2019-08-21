@@ -4,6 +4,7 @@
 
 #include "src/utils/array.h"
 #include "src/utils/string.h"
+#include "src/utils/getGraph.h"
 
 #include "./src/Search/linear.h"
 #include "./src/Search/binary.h"
@@ -21,6 +22,8 @@
 #include "./src/Sorting/radixSort.h"
 #include "./src/Sorting/heapSort.h"
 #include "./src/Sorting/mergeSort.h"
+
+#include "./src/Graph/kruskal.h"
 
 int main() {
     int SIZE = 10;
@@ -42,6 +45,7 @@ int main() {
         RADIX_SORT,
         HEAP_SORT,
         MERGE_SORT,
+        KRUSKAL,
     };
 
     vector<string> menu = {
@@ -61,6 +65,7 @@ int main() {
         "12. Radix sort;",
         "13. Heap sort;",
         "14. Merge sort;",
+        "15. Kruskal algorithm;",
     };
 
     for (string &item : menu) {
@@ -196,6 +201,14 @@ int main() {
             cout << "Before sort: "; printArray(arr, SIZE);
             mergeSort(arr, SIZE, 0, SIZE - 1);
             cout << "After sort: "; printArray(arr, SIZE);
+            break;
+        }
+
+        case KRUSKAL: {
+            vector<pair<int, pair<int, int>>> graph = getGraphEdgesVector(SIZE);
+            cout << "Before: " << endl; printEdgesList(&graph);
+            vector<pair<int, pair<int, int>>> result = kruskal(graph);
+            cout << "After: " << endl; printEdgesList(&result);
             break;
         }
 
