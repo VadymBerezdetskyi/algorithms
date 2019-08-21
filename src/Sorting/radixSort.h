@@ -4,8 +4,8 @@
 
 #include "../utils/array.h"
 
-void count (int *arr, int n, int exp) {
-    int output[n];
+void count (int *arr, const int n, int exp) {
+    int *output = new int[n];
     int i, count[10] = {0};
 
     for (i = 0; i < n; i++) {
@@ -17,7 +17,7 @@ void count (int *arr, int n, int exp) {
     }
 
     for (i = n - 1; i >= 0; i--) {
-        output[count[ (arr[i]/exp)%10 ] - 1] = arr[i];
+        output[count[ (arr[i]/exp) % 10 ] - 1] = arr[i];
         count[ (arr[i]/exp)%10 ]--;
     }
 

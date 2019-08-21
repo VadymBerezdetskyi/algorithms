@@ -4,7 +4,7 @@
 
 #include <algorithm>
 
-void mergeSort (int *arr, int size, int l, int r) {
+void mergeSort (int *arr, const int size, int l, int r) {
     if (r == l) {
         return;
     }
@@ -21,7 +21,7 @@ void mergeSort (int *arr, int size, int l, int r) {
     mergeSort(arr, size, l, m);
     mergeSort(arr, size, m + 1, r);
 
-    int buf[size];
+    int *buf = new int[size];
     int xl = l;
     int xr = m + 1;
     int cur = 0;
