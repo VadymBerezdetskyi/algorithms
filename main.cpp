@@ -25,6 +25,7 @@
 
 #include "./src/Graph/kruskal.h"
 #include "./src/Graph/prim.h"
+#include "./src/Graph/dfs.h"
 
 int main() {
     int SIZE = 10;
@@ -48,6 +49,7 @@ int main() {
         MERGE_SORT,
         KRUSKAL,
         PRIM,
+        DFS,
     };
 
     vector<string> menu = {
@@ -69,6 +71,7 @@ int main() {
         "14. Merge sort;",
         "15. Kruskal's algorithm;",
         "16. Prim's algorithm;",
+        "17. Depth-first search;",
     };
 
     for (string &item : menu) {
@@ -220,6 +223,16 @@ int main() {
             cout << "Before: " << endl; printMatrix(&graph);
             vector<pair<int, pair<int, int>>> result = prim(graph);
             cout << "After: " << endl; printEdgesList(&result);
+            break;
+        }
+
+        case DFS: {
+            vector<vector<int>> graph = getMatrix(SIZE);
+            cout << "Graph: " << endl; printMatrix(&graph);
+            cout << "Current node: ";
+            dfs(graph, [](int node) -> void {
+                cout << node << "\t";
+            });
             break;
         }
 

@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/vadym/Projects/algorithms/./src/Graph/dfs.h
+vector
+-
+iostream
+-
+functional
+/home/vadym/Projects/algorithms/./src/Graph/functional
+
 /home/vadym/Projects/algorithms/./src/Graph/kruskal.h
 vector
 -
@@ -143,6 +151,8 @@ src/utils/getGraph.h
 /home/vadym/Projects/algorithms/./src/Graph/kruskal.h
 ./src/Graph/prim.h
 /home/vadym/Projects/algorithms/./src/Graph/prim.h
+./src/Graph/dfs.h
+/home/vadym/Projects/algorithms/./src/Graph/dfs.h
 
 /home/vadym/Projects/algorithms/src/utils/array.h
 ctime
