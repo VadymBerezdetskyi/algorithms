@@ -24,6 +24,7 @@
 #include "./src/Sorting/mergeSort.h"
 
 #include "./src/Graph/kruskal.h"
+#include "./src/Graph/prim.h"
 
 int main() {
     int SIZE = 10;
@@ -46,6 +47,7 @@ int main() {
         HEAP_SORT,
         MERGE_SORT,
         KRUSKAL,
+        PRIM,
     };
 
     vector<string> menu = {
@@ -65,7 +67,8 @@ int main() {
         "12. Radix sort;",
         "13. Heap sort;",
         "14. Merge sort;",
-        "15. Kruskal algorithm;",
+        "15. Kruskal's algorithm;",
+        "16. Prim's algorithm;",
     };
 
     for (string &item : menu) {
@@ -208,6 +211,14 @@ int main() {
             vector<pair<int, pair<int, int>>> graph = getGraphEdgesVector(SIZE);
             cout << "Before: " << endl; printEdgesList(&graph);
             vector<pair<int, pair<int, int>>> result = kruskal(graph);
+            cout << "After: " << endl; printEdgesList(&result);
+            break;
+        }
+
+        case PRIM: {
+            vector<vector<int>> graph = getMatrix(SIZE);
+            cout << "Before: " << endl; printMatrix(&graph);
+            vector<pair<int, pair<int, int>>> result = prim(graph);
             cout << "After: " << endl; printEdgesList(&result);
             break;
         }

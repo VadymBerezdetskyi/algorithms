@@ -3,6 +3,7 @@
 
 CMakeFiles/algorithms.dir/main.cpp.o
  /home/vadym/Projects/algorithms/./src/Graph/kruskal.h
+ /home/vadym/Projects/algorithms/./src/Graph/prim.h
  /home/vadym/Projects/algorithms/./src/Search/binary.h
  /home/vadym/Projects/algorithms/./src/Search/linear.h
  /home/vadym/Projects/algorithms/./src/Search/linearString.h

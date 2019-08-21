@@ -35,4 +35,31 @@ void printEdgesList(vector< pair<int, pair<int, int>>> *list) {
 	}
 }
 
+vector<vector<int>> getMatrix(int size) {
+    vector<vector<int>> matrix(size, vector<int>(size));
+    random_device rd;
+    default_random_engine e(rd());
+    uniform_int_distribution<int> getItem(0, 20);
+
+    for (int i = 0; i < size; ++i) {
+        matrix[i][i] = 0;
+
+        for (int j = i + 1; j < size; ++j) {
+            matrix[i][j] = matrix[j][i] = getItem(e);
+        }
+    }
+
+    return matrix;
+}
+
+void printMatrix (vector<vector<int>> *matrix) {
+    for (const vector<int> &row : *matrix) {
+        for (int s : row) {
+            cout << s << "\t";
+        }
+
+        cout << endl;
+    }
+}
+
 #endif //ALGORITHMS_GETGRAPH_H
