@@ -26,6 +26,7 @@
 #include "./src/Graph/kruskal.h"
 #include "./src/Graph/prim.h"
 #include "./src/Graph/dfs.h"
+#include "./src/Graph/bfs.h"
 
 int main() {
     int SIZE = 10;
@@ -50,6 +51,7 @@ int main() {
         KRUSKAL,
         PRIM,
         DFS,
+        BFS,
     };
 
     vector<string> menu = {
@@ -72,6 +74,7 @@ int main() {
         "15. Kruskal's algorithm;",
         "16. Prim's algorithm;",
         "17. Depth-first search;",
+        "18. Breadth-first search;",
     };
 
     for (string &item : menu) {
@@ -232,6 +235,16 @@ int main() {
             cout << "Graph: " << endl; printMatrix(&graph);
             cout << "Current node: ";
             dfs(graph, [](int node) -> void {
+                cout << node << "\t";
+            });
+            break;
+        }
+
+        case BFS: {
+            vector<vector<int>> graph = getMatrix(SIZE);
+            cout << "Graph: " << endl; printMatrix(&graph);
+            cout << "Current node: ";
+            bfs(graph, [](int node) -> void {
                 cout << node << "\t";
             });
             break;
