@@ -8,8 +8,7 @@
 
 using namespace std;
 
-void searchKMP(const string& S, const string& pattern)
-{
+void searchKMP(const string& S, const string& pattern) {
     vector<int> pf (pattern.length());
 
     pf[0] = 0;

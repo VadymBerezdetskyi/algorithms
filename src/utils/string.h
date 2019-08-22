@@ -4,7 +4,9 @@
 #include <algorithm>
 #include "string"
 
-std::string getRandomString(size_t length) {
+using namespace std;
+
+string getRandomString(size_t length) {
     auto randchar = []() -> char
     {
         const char charset[] =
@@ -15,8 +17,8 @@ std::string getRandomString(size_t length) {
         return charset[rand() % max_index];
     };
 
-    std::string str(length,0);
-    std::generate_n(str.begin(), length, randchar);
+    string str(length,0);
+    generate_n(str.begin(), length, randchar);
 
     return str;
 }

@@ -88,6 +88,7 @@ int main() {
             cout << "Enter number to find: ";
             cin >> find;
             linearSearch(arr, SIZE, find);
+            break;
         }
 
         case BINARY: {
